@@ -1,0 +1,32 @@
+@media (min-width: 600px) {
+  .grid_2-5 {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: center;
+    gap: 6rem;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.produkt_beskrivelse {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.midten {
+  align-items: center;
+  display: inline;
+}
+
+header {
+  margin: 0;
+  display: flex;
+}

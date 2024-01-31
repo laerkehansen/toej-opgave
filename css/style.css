@@ -1,0 +1,131 @@
+/****GENERELLE STYLES***/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.article_small {
+  background-color: rgba(245, 245, 245, 1);
+  padding: 2rem;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
+  font-weight: bolder;
+  font-size: 5vw;
+  margin: 1rem;
+}
+
+.overskrift_brand {
+  font-weight: 400;
+}
+
+.overskrift {
+  font-size: xx-large;
+  color: rgba(255, 145, 43, 1);
+}
+
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
+}
+
+.ul_header {
+  list-style: none;
+  font-family: gabarito;
+  color: black;
+}
+
+li {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
+  font-weight: 400;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: rgba(18, 18, 18, 1);
+}
+
+a:hover {
+  color: grey;
+}
+
+.beskrivelse {
+  color: gray;
+}
+
+dl {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+dd {
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
+  font-weight: 400;
+}
+
+dt {
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
+  font-weight: 600;
+}
+
+.kategori {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.discount{
+    display: none;
+}
+
+.discount_pris{
+    text-decoration: line-through;
+}
+
+.red{
+  background-color: red;
+  color: white;
+  padding: 8%;
+  text-align: center;
+}
+
+.soldout{
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.soldout_tekst{
+    font-weight: 800;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
