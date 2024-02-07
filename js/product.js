@@ -8,6 +8,7 @@ fetch("https://kea-alt-del.dk/t7/api/products/" + id)
 function showProduct(product){
 console.log(product);
 document.querySelector("h1.overskrift_brand").textContent=product.productdisplayname;
+document.querySelector(".underoverskrift").textContent=product.productdisplayname;
 document.querySelector(".season").textContent=product.season;
 document.querySelector(".color").textContent=product.basecolour;
 document.querySelector(".brandname").textContent=product.brandname;
